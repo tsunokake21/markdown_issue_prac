@@ -1,9 +1,9 @@
 ## VSCodeでmermaidを利用する方法や便利な拡張機能
-
+***
 **Mermaid を使用すると、テキストとコードを使用して図やビジュアライゼーションを作成できます。**
 
 Mermaid は、Markdown にインスピレーションを得たテキスト定義とレンダラーを使用して複雑な図を作成および変更する JavaScript ベースの図作成およびグラフ作成ツールです。 Mermaid の主な目的は、ドキュメントが開発に追いつくのを支援することです。
-
+***
 ### mermaidを利用して出来ること
 mermaid+VScodeでできるのは
 
@@ -15,8 +15,8 @@ mermaid+VScodeでできるのは
 - 円グラフ
   
 です。
-
-## 3.便利な拡張機能
+***
+## 便利な拡張機能
 ***
 - #### Markdown Preview Mermaid Support
 Visual Studio Code で **Markdown Preview Mermaid Support** をインストールできます。
@@ -26,5 +26,12 @@ Visual Studio Code で **Markdown Preview Mermaid Support** をインストー�
 
 #### 使い方
 拡張機能をインストールするだけで、特に設定を変更することなくプレビュー時に図が表示されるようになります。
-
+***
 - #### Mermaid Markdown Syntax Highlighting
+IDEを使っているのであれば、白と黒だけでは味気ないし見づらい、ということで、Mermaid記法をハイライト表示してくれる拡張機能です。
+- 導入前
+![before](images/before.png)
+
+- 導入後
+![after](images/after.png) 
+***
