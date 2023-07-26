@@ -1,0 +1,36 @@
+@startuml 企業検索システム
+
+left to right direction
+skinparam packageStyle rectangle
+
+actor 管理者 as customer
+actor 利用者 as user
+
+rectangle 取引企業検索システム {
+  usecase 管理者ログイン as login
+  usecase 企業情報登録 as register
+  usecase 企業情報保守 as save
+  usecase 情報編集 as edit
+  usecase 情報削除 as delete
+  usecase 利用者ログイン as login2
+  usecase 企業情報検索 as search
+  usecase 全データ表示 as list
+  usecase 県より検索 as search2
+  usecase 業種より検索 as search3
+  
+
+
+
+  customer -- login
+  customer -- register
+  customer -- save
+  edit --> save
+  delete --> save
+  user -- login2
+  user -- search
+  list --> search
+  search2 --> search
+  search3 --> search
+}
+
+@enduml
